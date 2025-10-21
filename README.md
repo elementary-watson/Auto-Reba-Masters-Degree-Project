@@ -3,10 +3,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img width="82" height="90" alt="Logo" src="https://github.com/elementary-watson/AutoReba-Masters-Thesis-Project/docs/img/Eigenlogo.png" />
+    <img width="82" height="90" alt="Logo" src="/docs/img/Eigenlogo.png" />
 </div>
   <h3 align="center">Master Thesis Project</h3>
   <h3 align="center">Automatic Assessment of Body Ergonomics in Mixed Reality</h3>
+  
 ## Quick Summary
 This Unity3D project demonstrates how to stream full-body motion from OptiTrack/Motive into Unity to compute the ergonomic REBA-Score in real time and stream it into a Head-Up-Display. The core contribution is a plane-first angle method: joint orientations are projected onto anatomical planes (sagittal, frontal, transverse), measured as 2D angles (goniometer-style), and mapped into REBA tables A/B/C with modifiers (Activity, Force/Load, Coupling). The user is receiving a live biofeedback showing a color coded risk score (1–15) reflecting the ergonomic quality.
 
