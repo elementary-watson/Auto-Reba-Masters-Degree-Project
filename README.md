@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img width="82" height="90" alt="Logo" src="https://github.com/user-attachments/assets/73a42a8c-b642-402e-9eef-885eb7f6439c" />
+    <img width="82" height="90" alt="Logo" src="https://github.com/elementary-watson/AutoReba-Masters-Thesis-Project/docs/img/Eigenlogo.png" />
 </div>
   <h3 align="center">Master Thesis Project</h3>
   <h3 align="center">Automatic Assessment of Body Ergonomics in Mixed Reality</h3>
