@@ -1,7 +1,11 @@
+<a id="background-top"></a>
 <div align="center">
     <img width="82" height="90" alt="Logo" src="/docs/img/Eigenlogo.png" />
 </div>
   <h3 align="center">Background Info</h3>
+  <p align="center">
+   <a href="README.md"><strong>Back to ReadMe »</strong></a>
+  </p>
   <h3 align="center">Automatic Assessment of Body Ergonomics in Mixed Reality</h3>
 
 
@@ -22,6 +26,7 @@ If we look at these body segments, we might think that we are only looking at th
 In anatomy, these directions of movement are considered separately, as we can see here:
 
 
+<p align="right">(<a href="#background-top">back to top</a>)</p>
 
 
 
@@ -34,3 +39,5 @@ I have once again made one thing clear to myself: the REBA method consistently b
 So I set myself the task of developing a method with which I project the three-dimensional movements of the body onto the respective anatomical planes - CLICK - these planes are then viewed like the photos on which you can place a protractor and with this view - CLICK - each plane is viewed like a still image of a person on which the angle should be able to be read precisely.
 Instead of a protractor, a goniometer would fit better here - this is a tool that has two arms and in the application you would adjust one arm while the other is stationary to set the angle you are looking for. And I can do the same with this avatar - CLICK I create a sagittal plane specifically for a certain body segment - in this case for the forearm and specify in the software that this plane should move parallel to the upper arm from now on. The forearm then becomes the moving arm of the goniometer KLICK, which projects a beam onto the sagittal plane at the wrist and draws a 2D track with its movements. I then always use the current point of impact of this track and calculate the current angle in relation to the zero degree angle.
 Here we see the concept as an animation from the profile view - CLICK You can imagine this idea as two hands on a clock. Only that one hand has stopped at zero.
+
+<p align="right">(<a href="#background-top">back to top</a>)</p>
