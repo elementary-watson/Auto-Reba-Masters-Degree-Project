@@ -149,6 +149,10 @@ The REBA method evaluates postures in anatomical planes (sagittal for flexion/ex
 
 The problem with Unity 3D: Standard rotation toolkits don’t give those plane-isolated angles reliably in real time: Euler angles are sequence-dependent and break under mixed motions; quaternions are excellent for a final 3D orientation but don’t expose the separate plane components REBA needs. In practice this means a joint can look “well defined” mathematically while its flexion is numerically mixed with abduction and twist—hard to interpret and easy to misclassify. Plain vector angles in 3D tend to mix movement components across planes (flexion, abduction, rotation), which again conflicts with the plane-specific logic of REBA.
 
+[![Side View](docs/img/Profilwinkel Thumbnail.png)](https://youtu.be/vfelgAjGp7M)
+
+
+
 <table>
   <tr>
     <td width="49%">
