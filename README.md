@@ -27,24 +27,19 @@ This system was tested in a small pilot study with six participants in the mixed
     <img alt="compareRealities" src="docs/img/comparisonOfRealities.png" />
 </div>
 
-
-
 # Project: Automation of the REBA method
 ### First-person view of study tasks for participants
 
 <div align="center">
-<video width="80%" controls>
-  <source src="docs/video/Study Task Captures.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/c1a45c33-c953-487d-939c-18360891af3f
 </div>
 
 ### Visual feedback of the automated REBA-HUD (Head-Up-Display)
 <div align="center">
-<video width="80%" controls>
-  <source src="docs/video/REBA_display.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+https://github.com/user-attachments/assets/79112f15-45e6-479b-9054-e049d4268379
+
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -149,24 +144,11 @@ The REBA method evaluates postures in anatomical planes (sagittal for flexion/ex
 
 The problem with Unity 3D: Standard rotation toolkits don’t give those plane-isolated angles reliably in real time: Euler angles are sequence-dependent and break under mixed motions; quaternions are excellent for a final 3D orientation but don’t expose the separate plane components REBA needs. In practice this means a joint can look “well defined” mathematically while its flexion is numerically mixed with abduction and twist—hard to interpret and easy to misclassify. Plain vector angles in 3D tend to mix movement components across planes (flexion, abduction, rotation), which again conflicts with the plane-specific logic of REBA.
 
-[![Side View](docs/img/Profilwinkel Thumbnail.png)](https://youtu.be/vfelgAjGp7M)
+https://github.com/user-attachments/assets/92984b6f-f416-41e9-98bd-39f7d7f98e09
 
-
-
-<table>
-  <tr>
-    <td width="49%">
-    <video width="100%" controls>
-    <source src= "docs/video/Profilwinkel.mp4" type="video/mp4">
-    </td>
-    <td width="49%">
-      <p>
 The "Plane-First" idea tackles the problem: instead of forcing a 3D orientation into anatomical planes (sagittal, frontal and transverse), we solve the problem by translating the orientation to 2D first. [CHECK THE VIDEO]: If we would like to measure the flexion angle of the lower arm, we attach the relevant anatomical plane i.e. a sagittal plane to its "parent" the upper arm. The movements of the lower arm are projected into that plane via a raycast from the wrist. The impact point of beam on the sagittal plane can be translated into 2D angle. Imagine the movable arm of a goniometer on a photo - the tip of the arm is represented by this impact point. Since only in-plane motion is measured, the value maps directly to REBA’s categorical wary of using anatomical planes and remains stable even when movements are complex.<br />
- <a href="BACKGROUND.md"><strong>Read more in the background info »</strong></a>
-    </p>
-    </td>
-  </tr>
-</table>
+<a href="BACKGROUND.md"><strong>Read more in the background info »</strong></a>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
